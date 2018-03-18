@@ -1,0 +1,12 @@
+/*webkit-sassui-border-divider Start*/
+.webkit-sassui-border-divider{
+  display: inline-block;
+  font-size: 20px;
+  line-height: 1px;
+  border-left: 10em solid;
+  border-right: 10em solid;
+  > * {
+    vertical-align: middle;
+  }
+}
+/*webkit-sassui-border-divider End*/

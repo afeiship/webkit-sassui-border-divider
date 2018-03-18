@@ -1,0 +1,25 @@
+@import "../dist/webkit-sassui-border-divider.scss";
+.test-webkit-sassui-border-divider{
+  width: 90%;
+  margin: 30px auto;
+  border:1px dashed salmon;
+  background:lighten(lightblue,20%);
+  border-radius: 10px;
+  padding: 20px;
+
+  h3{
+    border-left: 3px solid #ccc;
+    padding-left: 14px;
+    margin-bottom: 20px;
+  }
+
+  center{
+    margin-bottom: 20px;
+  }
+
+  .webkit-sassui-border-divider{
+    span{
+      padding: 0 10px;
+    }
+  }
+}

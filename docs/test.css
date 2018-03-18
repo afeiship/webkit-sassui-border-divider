@@ -1,0 +1,36 @@
+/*webkit-sassui-border-divider Start*/
+.webkit-sassui-border-divider {
+  display: inline-block;
+  font-size: 20px;
+  line-height: 1px;
+  border-left: 10em solid;
+  border-right: 10em solid;
+}
+
+.webkit-sassui-border-divider > * {
+  vertical-align: middle;
+}
+
+/*webkit-sassui-border-divider End*/
+.test-webkit-sassui-border-divider {
+  width: 90%;
+  margin: 30px auto;
+  border: 1px dashed salmon;
+  background: #fbfdfe;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.test-webkit-sassui-border-divider h3 {
+  border-left: 3px solid #ccc;
+  padding-left: 14px;
+  margin-bottom: 20px;
+}
+
+.test-webkit-sassui-border-divider center {
+  margin-bottom: 20px;
+}
+
+.test-webkit-sassui-border-divider .webkit-sassui-border-divider span {
+  padding: 0 10px;
+}
